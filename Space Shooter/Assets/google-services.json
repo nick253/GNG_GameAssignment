@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "615890146675",
+    "firebase_url": "https://gng-active-shooter-defender.firebaseio.com",
+    "project_id": "gng-active-shooter-defender",
+    "storage_bucket": "gng-active-shooter-defender.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615890146675:android:f256c02d457429e6",
+        "android_client_info": {
+          "package_name": "com.GNG.SpaceShooter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615890146675-c9ajcvm8u0f66f2s9aa7i9sg550p6rpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmfvaGoX9OQbdaE_X_OnarDIlYqRoD6ao"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
