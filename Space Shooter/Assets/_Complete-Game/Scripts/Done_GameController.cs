@@ -14,17 +14,21 @@ public class Done_GameController : MonoBehaviour
 	public GUIText scoreText;
 	public GUIText restartText;
 	public GUIText gameOverText;
+	public GUIText leaderboardText;
 	
 	private bool gameOver;
 	private bool restart;
+	private bool leaderboard;
 	private int score;
 	
 	void Start ()
 	{
 		gameOver = false;
 		restart = false;
+		leaderboard = false;
 		restartText.text = "";
 		gameOverText.text = "";
+		leaderboardText.text = "";
 		score = 0;
 		UpdateScore ();
 		StartCoroutine (SpawnWaves ());
@@ -38,6 +42,11 @@ public class Done_GameController : MonoBehaviour
 			{
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 			}
+			if (Input.GetKeyDown (KeyCode.T))
+			{
+				SceneManager.LoadSceneAsync("_database");
+			}
+
 		}
 	}
 	
@@ -59,6 +68,7 @@ public class Done_GameController : MonoBehaviour
 			if (gameOver)
 			{
 				restartText.text = "Press 'R' for Restart";
+				leaderboardText.text = "Press 'T' to access Leaderboard";
 				restart = true;
 				break;
 			}
