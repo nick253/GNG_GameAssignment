@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{28FCF307-BCEB-DF00-C466-08C29A16E02D}</ProjectGuid>
+    <ProjectGuid>{E9816F45-1842-2A13-2AB3-EAC1572DBA98}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Complete-Game\Scripts\ChangeSceneHandler.cs" />
      <Compile Include="Assets\_Complete-Game\Scripts\DatabaseHandler.cs" />
      <Compile Include="Assets\_Complete-Game\Scripts\Done_BGScroller.cs" />
      <Compile Include="Assets\_Complete-Game\Scripts\Done_DestroyByBoundary.cs" />
@@ -63,16 +64,20 @@
      <Compile Include="Assets\_Complete-Game\Scripts\Done_RandomRotator.cs" />
      <Compile Include="Assets\_Complete-Game\Scripts\Done_WeaponController.cs" />
      <Compile Include="Assets\_Complete-Game\Scripts\LoginHandler.cs" />
+     <Compile Include="Assets\_Prefabs\Low Poly Animated People\RandomAnimationPicker.cs" />
+     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.64.0.txt" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
      <None Include="Assets\Firebase\Plugins\link.xml" />
-     <None Include="Assets\Firebase\Editor\FirebaseAuth_v4.5.1_manifest.txt" />
      <None Include="Assets\Plugins\Android\Firebase\AndroidManifest.xml" />
      <None Include="Assets\Firebase\Editor\AppDependencies.xml" />
+     <None Include="Assets\Firebase\Editor\FirebaseAuth_v4.5.0_manifest.txt" />
      <None Include="Assets\Firebase\Editor\AuthDependencies.xml" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+     <None Include="Assets\Firebase\Editor\FirebaseDatabase_v4.5.0_manifest.txt" />
+     <None Include="Assets\ToonSoldiers_WW2_demo\ToonSoldiers_WW2_demo_README.txt" />
      <None Include="Assets\Firebase\Plugins\Http\link.xml" />
-     <None Include="Assets\Firebase\Editor\FirebaseDatabase_v4.5.1_manifest.txt" />
+     <None Include="Assets\_Prefabs\QuadCopter\ReadMe.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -94,29 +99,29 @@
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
- <Reference Include="Firebase.App">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
- </Reference>
- <Reference Include="Firebase.Auth">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
- </Reference>
- <Reference Include="Firebase.Database">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
- </Reference>
- <Reference Include="Firebase.Platform">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+ <Reference Include="Unity.Compat">
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
  </Reference>
  <Reference Include="Google.MiniJson">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Database">
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
  </Reference>
  <Reference Include="Google.Sharpen">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Compat">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
+ <Reference Include="Firebase.Platform">
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Tasks">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Assets/Parse/Plugins/Unity.Tasks.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Parse/Plugins/Unity.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Auth">
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.App">
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

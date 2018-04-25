@@ -21,6 +21,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 // Handler for UI buttons on the scene.  Also performs some
 // necessary setup (initializing the firebase app, etc) on
@@ -208,3 +209,4 @@ public class DatabaseHandler : MonoBehaviour {
         addScorePressed = true;
     }
 }
+

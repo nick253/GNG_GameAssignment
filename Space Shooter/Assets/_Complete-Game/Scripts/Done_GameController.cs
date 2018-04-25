@@ -1,94 +1,92 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Done_GameController : MonoBehaviour
 {
-	public GameObject[] hazards;
-	public Vector3 spawnValues;
-	public int hazardCount;
-	public float spawnWait;
-	public float startWait;
-	public float waveWait;
-	
-	public GUIText scoreText;
-	public GUIText restartText;
-	public GUIText gameOverText;
-	public GUIText leaderboardText;
-	
-	private bool gameOver;
-	private bool restart;
-	private bool leaderboard;
-	private int score;
-	
-	void Start ()
-	{
-		gameOver = false;
-		restart = false;
-		leaderboard = false;
-		restartText.text = "";
-		gameOverText.text = "";
-		leaderboardText.text = "";
-		score = 0;
-		UpdateScore ();
-		StartCoroutine (SpawnWaves ());
-	}
-	
-	void Update ()
-	{
-		if (restart)
-		{
-			if (Input.GetKeyDown (KeyCode.R))
-			{
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-			}
-			if (Input.GetKeyDown (KeyCode.T))
-			{
-				SceneManager.LoadSceneAsync("_database");
-			}
+    public GameObject[] hazards;
+    public Vector3 spawnValues;
+    public int hazardCount;
+    public float spawnWait;
+    public float startWait;
+    public float waveWait;
 
-		}
-	}
-	
-	IEnumerator SpawnWaves ()
-	{
-		yield return new WaitForSeconds (startWait);
-		while (true)
-		{
-			for (int i = 0; i < hazardCount; i++)
+    public Text scoreText;
+    public Text restartText;
+	public Text leaderboardText;
+    public Text gameOverText;
+
+    private bool gameOver;
+    private bool restart;
+    private int score;
+
+    void Start()
+    {
+        gameOver = false;
+        restart = false;
+        restartText.text = "";
+		leaderboardText.text = "";
+        gameOverText.text = "";
+        score = 0;
+        UpdateScore();
+        StartCoroutine(SpawnWaves());
+    }
+
+    void Update()
+    {
+        if (restart)
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+			if (Input.GetKeyDown(KeyCode.T))
 			{
-				GameObject hazard = hazards [Random.Range (0, hazards.Length)];
-				Vector3 spawnPosition = new Vector3 (Random.Range (-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
-				Quaternion spawnRotation = Quaternion.identity;
-				Instantiate (hazard, spawnPosition, spawnRotation);
-				yield return new WaitForSeconds (spawnWait);
+				SceneManager.LoadSceneAsync("_leaderboard");
 			}
-			yield return new WaitForSeconds (waveWait);
-			
-			if (gameOver)
-			{
-				restartText.text = "Press 'R' for Restart";
+        }
+    }
+
+    IEnumerator SpawnWaves()
+    {
+        yield return new WaitForSeconds(startWait);
+        while (true)
+        {
+            for (int i = 0; i < hazardCount; i++)
+            {
+                GameObject hazard = hazards[Random.Range(0, hazards.Length)];
+                Vector3 spawnPosition = new Vector3(Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
+                Quaternion spawnRotation = Quaternion.identity;
+                Instantiate(hazard, spawnPosition, spawnRotation);
+                yield return new WaitForSeconds(spawnWait);
+            }
+            yield return new WaitForSeconds(waveWait);
+
+            if (gameOver)
+            {
+                restartText.text = "Press 'R' for Restart";
 				leaderboardText.text = "Press 'T' to access Leaderboard";
-				restart = true;
-				break;
-			}
-		}
-	}
-	
-	public void AddScore (int newScoreValue)
-	{
-		score += newScoreValue;
-		UpdateScore ();
-	}
-	
-	void UpdateScore ()
-	{
-		scoreText.text = "Score: " + score;
-	}
-	
-	public void GameOver ()
-	{
-		gameOverText.text = "Game Over!";
-		gameOver = true;
-	}
+                restart = true;
+                break;
+            }
+        }
+    }
+
+    public void AddScore(int newScoreValue)
+    {
+        score += newScoreValue;
+        UpdateScore();
+    }
+
+    void UpdateScore()
+    {
+        scoreText.text = "Score: " + score;
+    }
+
+    public void GameOver()
+    {
+        gameOverText.text = "Game Over!";
+        gameOver = true;
+    }
 }
