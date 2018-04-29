@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Complete-Game/Scenes/_leaderboard.unity
+- path: Assets/_Active_Shooter_Complete_Game/__Scenes/_startScreen.unity
   isLoaded: 1
   isActive: 1

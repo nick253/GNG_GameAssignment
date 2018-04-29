@@ -61,9 +61,10 @@
      <None Include="Assets\Firebase\Editor\AuthDependencies.xml" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
      <None Include="Assets\Firebase\Editor\FirebaseDatabase_v4.5.0_manifest.txt" />
-     <None Include="Assets\ToonSoldiers_WW2_demo\ToonSoldiers_WW2_demo_README.txt" />
+     <None Include="Assets\x_Prefabs\ToonSoldiers_WW2_demo\ToonSoldiers_WW2_demo_README.txt" />
+     <None Include="Assets\Wispy Sky\ReadMe.txt" />
      <None Include="Assets\Firebase\Plugins\Http\link.xml" />
-     <None Include="Assets\_Prefabs\QuadCopter\ReadMe.txt" />
+     <None Include="Assets\x_Prefabs\QuadCopter\ReadMe.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -122,43 +123,43 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Compat">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Space Shooter (1)/Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
  </Reference>
  <Reference Include="Google.MiniJson">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Space Shooter (1)/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Database">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Space Shooter (1)/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
  </Reference>
  <Reference Include="Google.Sharpen">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Space Shooter (1)/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Platform">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Space Shooter (1)/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
  </Reference>
  <Reference Include="Google.VersionHandlerImpl_v1.2.64.0">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.64.0.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Space Shooter (1)/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.64.0.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Tasks">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Parse/Plugins/Unity.Tasks.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Space Shooter (1)/Assets/Parse/Plugins/Unity.Tasks.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Editor">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Space Shooter (1)/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Google.JarResolver_v1.2.64.0">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.64.0.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Space Shooter (1)/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.64.0.dll</HintPath>
  </Reference>
  <Reference Include="Google.VersionHandler">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Space Shooter (1)/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Auth">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Space Shooter (1)/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.App">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Space Shooter (1)/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
  </Reference>
  <Reference Include="Google.IOSResolver_v1.2.64.0">
- <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter (1)/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.64.0.dll</HintPath>
+ <HintPath>C:/Users/nickb/Desktop/GNG_Game/GNG_GameAssignment/Space Shooter/Space Shooter (1)/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.64.0.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -1,9 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Complete-Game\Scripts\ChangeSceneHandler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Active_Shooter_Complete_Game\__Scripts\ChangeSceneHandler.cs">
     <Files>
-      <File FileName="Assets\_Complete-Game\Scripts\DatabaseHandler.cs" Line="206" Column="8" />
-      <File FileName="Assets\_Complete-Game\Scripts\ChangeSceneHandler.cs" Line="5" Column="1" />
+      <File FileName="Assets\x_Prefabs\Low Poly Animated People\RandomAnimationPicker.cs" Line="16" Column="1" />
+      <File FileName="Assets\_Active_Shooter_Complete_Game\__Scripts\Done_GameController.cs" Line="45" Column="5" />
+      <File FileName="Assets\_Active_Shooter_Complete_Game\__Scripts\ChangeSceneHandler.cs" Line="11" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
