@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Active_Shooter_Complete_Game/__Scenes/_startScreen.unity
+    guid: f6e56ca18c9f81149988c88450dc573b
+  - enabled: 1
     path: Assets/_Active_Shooter_Complete_Game/__Scenes/Done_Main.unity
     guid: d6cf7ed2faf3b47eb8f72eaa9c1a495a
-  - enabled: 0
-    path: 
-    guid: 53e6a0e5da8a749c596f61dfc60d86ae
   - enabled: 1
     path: Assets/_Active_Shooter_Complete_Game/__Scenes/_leaderboard.unity
     guid: 6780eea4f1dfbe04882996f32919a251
-  - enabled: 1
-    path: Assets/_Active_Shooter_Complete_Game/__Scenes/_startScreen.unity
-    guid: f6e56ca18c9f81149988c88450dc573b
+  - enabled: 0
+    path: 
+    guid: 53e6a0e5da8a749c596f61dfc60d86ae
